@@ -1,0 +1,10 @@
+syntax = "proto3";
+package todo;
+message Todo {
+    int32 id = 1;
+    string title = 2;
+    bool checked = 3;
+}
+message TodoList {
+    repeated Todo todos = 1;
+}
