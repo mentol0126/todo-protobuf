@@ -62,3 +62,5 @@ $router->get('/todo-protobuf-binary', function () use ($router) {
     $todoList->setTodos($tempTodoList);
     return $todoList->serializeToString();
 });
+
+// 適当な差分
